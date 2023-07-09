@@ -15,3 +15,9 @@ function FarToCel()
     console.log(result); //for terminal
 }
 
+let button=document.getElementById("button");
+
+button.addEventListener('click',()=>{
+    celsius.value='';
+    fahrenheit.value='';
+})
